@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4318BFFA223F9A7C0035D3CC /* Recordings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318BFF9223F9A7C0035D3CC /* Recordings.swift */; };
+		433E6FB5223A4D38008F0A47 /* AudioKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E6FB4223A4D38008F0A47 /* AudioKitViewController.swift */; };
+		433E6FBB223A8656008F0A47 /* WaveformNodeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E6FB7223A8654008F0A47 /* WaveformNodeProvider.swift */; };
+		433E6FBC223A8656008F0A47 /* VIWaveformNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E6FB8223A8655008F0A47 /* VIWaveformNodeView.swift */; };
+		433E6FBD223A8656008F0A47 /* VIWaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E6FB9223A8655008F0A47 /* VIWaveformView.swift */; };
+		433E6FBE223A8656008F0A47 /* VIAudioSampleOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433E6FBA223A8656008F0A47 /* VIAudioSampleOperation.swift */; };
 		437E0A9D2236614E00CA777D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E0A9C2236614E00CA777D /* AppDelegate.swift */; };
 		437E0A9F2236614E00CA777D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E0A9E2236614E00CA777D /* ViewController.swift */; };
 		437E0AA22236614E00CA777D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437E0AA02236614E00CA777D /* Main.storyboard */; };
 		437E0AA42236615C00CA777D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437E0AA32236615C00CA777D /* Assets.xcassets */; };
 		437E0AA72236615C00CA777D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437E0AA52236615C00CA777D /* LaunchScreen.storyboard */; };
+		438989372240B68B00F94E05 /* RecordingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438989362240B68B00F94E05 /* RecordingsCell.swift */; };
+		43ADB20C22378ABC00A81BA9 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ADB20B22378ABC00A81BA9 /* RecorderViewController.swift */; };
+		43ADB20E2237CE7A00A81BA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43ADB20D2237CE7A00A81BA9 /* GoogleService-Info.plist */; };
+		43FB9611223B7444002AD748 /* UIKit+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB9610223B7444002AD748 /* UIKit+Extensions.swift */; };
+		61E5C56FEF3C07DF3AD38770 /* Pods_zBA_Audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AE4FA984AB64BB0F83F025 /* Pods_zBA_Audio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4318BFF9223F9A7C0035D3CC /* Recordings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recordings.swift; sourceTree = "<group>"; };
+		433E6FB4223A4D38008F0A47 /* AudioKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioKitViewController.swift; sourceTree = "<group>"; };
+		433E6FB7223A8654008F0A47 /* WaveformNodeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformNodeProvider.swift; sourceTree = "<group>"; };
+		433E6FB8223A8655008F0A47 /* VIWaveformNodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIWaveformNodeView.swift; sourceTree = "<group>"; };
+		433E6FB9223A8655008F0A47 /* VIWaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIWaveformView.swift; sourceTree = "<group>"; };
+		433E6FBA223A8656008F0A47 /* VIAudioSampleOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIAudioSampleOperation.swift; sourceTree = "<group>"; };
 		437E0A992236614E00CA777D /* zBA Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zBA Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		437E0A9C2236614E00CA777D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		437E0A9E2236614E00CA777D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,13 @@
 		437E0AA32236615C00CA777D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		437E0AA62236615C00CA777D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		437E0AA82236615C00CA777D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438989362240B68B00F94E05 /* RecordingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsCell.swift; sourceTree = "<group>"; };
+		43ADB20B22378ABC00A81BA9 /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
+		43ADB20D2237CE7A00A81BA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43FB9610223B7444002AD748 /* UIKit+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extensions.swift"; sourceTree = "<group>"; };
+		694D4CD333E10DDEDE5FE76B /* Pods-zBA Audio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zBA Audio.release.xcconfig"; path = "Pods/Target Support Files/Pods-zBA Audio/Pods-zBA Audio.release.xcconfig"; sourceTree = "<group>"; };
+		7BFBF5927390A78FC392558F /* Pods-zBA Audio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zBA Audio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zBA Audio/Pods-zBA Audio.debug.xcconfig"; sourceTree = "<group>"; };
+		B4AE4FA984AB64BB0F83F025 /* Pods_zBA_Audio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zBA_Audio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E5C56FEF3C07DF3AD38770 /* Pods_zBA_Audio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		433E6FB6223A8640008F0A47 /* Waveform */ = {
+			isa = PBXGroup;
+			children = (
+				433E6FBA223A8656008F0A47 /* VIAudioSampleOperation.swift */,
+				433E6FB8223A8655008F0A47 /* VIWaveformNodeView.swift */,
+				433E6FB9223A8655008F0A47 /* VIWaveformView.swift */,
+				433E6FB7223A8654008F0A47 /* WaveformNodeProvider.swift */,
+			);
+			path = Waveform;
+			sourceTree = "<group>";
+		};
 		437E0A902236614E00CA777D = {
 			isa = PBXGroup;
 			children = (
 				437E0A9B2236614E00CA777D /* zBA Audio */,
 				437E0A9A2236614E00CA777D /* Products */,
+				4475554F6026B06D60AC3300 /* Pods */,
+				9F818FB2CCD405A5CCD3BA45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,86 @@
 		437E0A9B2236614E00CA777D /* zBA Audio */ = {
 			isa = PBXGroup;
 			children = (
+				437E0AB3223663F100CA777D /* Constants */,
+				437E0AB2223663D400CA777D /* Extensions */,
+				437E0AB1223663D100CA777D /* Networking */,
+				437E0AB0223663CE00CA777D /* Controllers */,
+				437E0AAF223663CC00CA777D /* Views */,
+				437E0AAE223663CA00CA777D /* Models */,
 				437E0A9C2236614E00CA777D /* AppDelegate.swift */,
-				437E0A9E2236614E00CA777D /* ViewController.swift */,
 				437E0AA02236614E00CA777D /* Main.storyboard */,
 				437E0AA32236615C00CA777D /* Assets.xcassets */,
 				437E0AA52236615C00CA777D /* LaunchScreen.storyboard */,
 				437E0AA82236615C00CA777D /* Info.plist */,
+				43ADB20D2237CE7A00A81BA9 /* GoogleService-Info.plist */,
 			);
 			path = "zBA Audio";
+			sourceTree = "<group>";
+		};
+		437E0AAE223663CA00CA777D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4318BFF9223F9A7C0035D3CC /* Recordings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		437E0AAF223663CC00CA777D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				438989362240B68B00F94E05 /* RecordingsCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		437E0AB0223663CE00CA777D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				433E6FB6223A8640008F0A47 /* Waveform */,
+				437E0A9E2236614E00CA777D /* ViewController.swift */,
+				43ADB20B22378ABC00A81BA9 /* RecorderViewController.swift */,
+				433E6FB4223A4D38008F0A47 /* AudioKitViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		437E0AB1223663D100CA777D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		437E0AB2223663D400CA777D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43FB9610223B7444002AD748 /* UIKit+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		437E0AB3223663F100CA777D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4475554F6026B06D60AC3300 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BFBF5927390A78FC392558F /* Pods-zBA Audio.debug.xcconfig */,
+				694D4CD333E10DDEDE5FE76B /* Pods-zBA Audio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F818FB2CCD405A5CCD3BA45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE4FA984AB64BB0F83F025 /* Pods_zBA_Audio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437E0AAB2236615C00CA777D /* Build configuration list for PBXNativeTarget "zBA Audio" */;
 			buildPhases = (
+				C81F0C5AF227479EABEB4D5B /* [CP] Check Pods Manifest.lock */,
 				437E0A952236614E00CA777D /* Sources */,
 				437E0A962236614E00CA777D /* Frameworks */,
 				437E0A972236614E00CA777D /* Resources */,
+				23DEC1C5E00E20AA0BA35059 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,18 +237,75 @@
 				437E0AA72236615C00CA777D /* LaunchScreen.storyboard in Resources */,
 				437E0AA42236615C00CA777D /* Assets.xcassets in Resources */,
 				437E0AA22236614E00CA777D /* Main.storyboard in Resources */,
+				43ADB20E2237CE7A00A81BA9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23DEC1C5E00E20AA0BA35059 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zBA Audio/Pods-zBA Audio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SoundWave/SoundWave.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Floaty.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SoundWave.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zBA Audio/Pods-zBA Audio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81F0C5AF227479EABEB4D5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zBA Audio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		437E0A952236614E00CA777D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				433E6FB5223A4D38008F0A47 /* AudioKitViewController.swift in Sources */,
+				43ADB20C22378ABC00A81BA9 /* RecorderViewController.swift in Sources */,
+				433E6FBB223A8656008F0A47 /* WaveformNodeProvider.swift in Sources */,
+				438989372240B68B00F94E05 /* RecordingsCell.swift in Sources */,
+				433E6FBE223A8656008F0A47 /* VIAudioSampleOperation.swift in Sources */,
 				437E0A9F2236614E00CA777D /* ViewController.swift in Sources */,
+				43FB9611223B7444002AD748 /* UIKit+Extensions.swift in Sources */,
+				433E6FBC223A8656008F0A47 /* VIWaveformNodeView.swift in Sources */,
+				433E6FBD223A8656008F0A47 /* VIWaveformView.swift in Sources */,
 				437E0A9D2236614E00CA777D /* AppDelegate.swift in Sources */,
+				4318BFFA223F9A7C0035D3CC /* Recordings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +449,13 @@
 		};
 		437E0AAC2236615C00CA777D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFBF5927390A78FC392558F /* Pods-zBA Audio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2689CCPU47;
 				INFOPLIST_FILE = "zBA Audio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +469,13 @@
 		};
 		437E0AAD2236615C00CA777D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694D4CD333E10DDEDE5FE76B /* Pods-zBA Audio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2689CCPU47;
 				INFOPLIST_FILE = "zBA Audio/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
